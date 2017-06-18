@@ -3,6 +3,10 @@
 	border-color: #20CCB2;
 	border-radius: 0px;
 }
+.bg-robot {
+	background-image: url(images/header-icons.png);
+	background-repeat: no-repeat;
+}
 .btn-slack {
 	border-radius: 50px;
 	border-color: #0B0B0B;
