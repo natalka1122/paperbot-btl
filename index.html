@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <title>Paperbot</title>
+  <!-- Bootstrap v4 Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- Bootstrap v3 Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
   <!-- Fontawesome -->
   <script src="https://use.fontawesome.com/179c7c300d.js"></script>
   <!-- My own styles -->
@@ -24,16 +26,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 <head>
 <body>
-<div class="row bg-green">
-  <div class="col-xs-6">
-    <img src="images\paperbot-logo.png">
-  </div>
-  <div class="col-xs-6">
-    Blog iOS Android Login Add to Slack
-  </div>
-</div>
-<nav class="navbar navbar-default bg-green">
-  <div class="container-fluid">
+<nav class="navbar navbar-toggleable-md bg-green">
     <div class="navbar-header">
       <a class="navbar-brand" href="#"><img src="images\paperbot-logo.png"></a>
     </div>
@@ -42,39 +35,38 @@
       <li><a class="btn" href="https://itunes.apple.com/app/apple-store/id1168208758?pt=118082973&ct=Home%20Paperbot&mt=8">iOS</a></li>
       <li><a class="btn" href="https://play.google.com/store/apps/details?id=ai.paperbot&referrer=utm_source%3DPaperbot%26utm_medium%3Dhome">Android</a></li>
       <li><a class="btn" href="http://web.paperbot.ai/">Login</a></li>
-      <li><a class="btn btn-default" href="https://app.paperbot.ai/auth/slack?source=add_bot">Add to Slack</a></li>
+      <li><a class="btn btn-default btn-slack" href="https://app.paperbot.ai/auth/slack?source=add_bot">Add to Slack</a></li>
     </ul>
-  </div>
 </nav>
 
 <div class="row bg-green">
-  <div class="col-xs-6">
+  <div class="col-6">
     <h2>Your team's knowledge is endless. So are your Slack channels.</h2>
     <p>Paperbot collects and organizes your most valuable content shared on Slack. Never miss another link again!<p>
     <p>Add to Slack</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     robot pic
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     Thousands of teams already use Paperbot
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-4">
+  <div class="col-4">
     buffer
   </div>
-  <div class="col-xs-4">
+  <div class="col-4">
     salesforce
   </div>
-  <div class="col-xs-4">
+  <div class="col-4">
     Paypal
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     <h1>How it works</h1>
     <p>Add to Slack</p>
     <p>Chat Invite into your channels</p>
@@ -83,118 +75,118 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     picture
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <h1>Tagging</h1>
     <p>Automagically collect and categorize shared links from your Slack channels.<br>
     Learn more</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     <h1>Email Digest</h1>
     <p>Opt in to get a summary of the top content shared on your channels straight into your inbox.<br>
     Learn more</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     picture
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     picture
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <h1>Web App</h1>
     <p>Keep your best Slack resources together in a beautifully crafted webapp<br>
     Learn more</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     <h1>Mobile Apps</h1>
     <p>Access your links from anywhere with our iOS and Android apps<br>
     Learn more</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     picture
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     picture
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <h1>Rich Search</h1>
     <p>Quickly find any content by date, name, keyword or channel with a powerful search tool<br>
     Learn more</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     <h1>And more</h1>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     <h3>Multi-Teams</h3>
     <p>Quickly switch between different team profiles with one login</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <h3>AI-based Recommendations</h3>
     <p>Get the most relevant content especially curated for you</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     <h3>Delete Link</h3>
     <p>Remove links with one click to easily keep your workspace in check</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <h3>Focus Display</h3>
     <p>Eliminate distractions and keep focused on what matters</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     <h1>Never miss another link again.</h1>
     <p>Paperbot organizes the most relevant links shared on your Slack channels, so you can stay informed but not overwhelmed.</p>
     <p>Add to Slack</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-3">
     <h3>Learn More</h3>
     <p>Blog</p>
     <p>Login</p>
   </div>
-  <div class="col-xs-3">
+  <div class="col-3">
     <h3>Company</h3>
     <p>About us</p>
     <p>Contact us</p>
   </div>
-  <div class="col-xs-3">
+  <div class="col-3">
     <h3>Resources</h3>
     <p>Help</p>
     <p>Privacy Policy</p>
   </div>
-  <div class="col-xs-3">
+  <div class="col-3">
     <h3>Follow us</h3>
     <p>facebook twitter instagram</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-6">
     <p>Search powered by aloglia</p>
   </div>
-  <div class="col-xs-6">
+  <div class="col-6">
     <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Paperbot - made with <i class="fa fa-heart" aria-hidden="true"></i> by Skore.io</p>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     Not created by, affiliated with, or supported by Slack Technologies, Inc.
   </div>
 </div>
