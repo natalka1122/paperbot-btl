@@ -15,15 +15,15 @@
   z-index: 1;
 }
 .angle:after {
-  background: none;
-  bottom: 0;
+  background: inherit;
+	top: 0px;
   content: '';
   display: block;
-  height: 50%;
+  height: 50px;
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-1.5deg);
+  transform: skewY(2deg);
   transform-origin: 100%;
   z-index: -1;
 }
